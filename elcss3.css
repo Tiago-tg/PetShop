@@ -1,0 +1,223 @@
+body{
+background-color: #E5E4E4  ;
+margin-left: 10px;
+margin-right: 10px;
+margin-top:0pX;
+
+}
+
+.centrar{
+
+display: flex;
+justify-content: center;
+
+
+}
+.fijo{
+width: 100%;
+position:fixed;
+display: flex;
+justify-content: center;
+}
+
+.padre{
+
+display: flex;
+justify-content: center;
+
+}
+.grande{
+display: flex;
+justify-content: center;
+width: 100%;
+background-image: url(img/preguntas1.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+position:absolute
+}
+
+.pequeño{
+  background-color:rgba(0,0,0,0.7);
+width: 100%;
+height: 150px;
+display: flex;
+justify-content: center;
+
+}
+.posision{
+
+  width:100%;
+  height:50px;
+position:absolute;
+top:-60px;
+  text-align:center;
+
+
+}
+
+
+h1{
+
+color: white;
+font-size: 60px;
+
+}
+
+.eltodo{
+width: 96%;
+height:1250px;
+background-color:#FCFCFC;
+padding:20px;
+
+
+}
+
+#trs{
+
+position:relative;
+float:right;
+}
+
+.enff{
+
+position:relative;
+top:200px;
+
+
+}
+.enfff{
+
+}
+
+p{
+
+font-family: "monospace","Sans-Serif";
+
+}
+
+#trs2{
+
+  position:relative;
+  top:-100px;
+  float:right;
+
+}
+
+#trs4{
+
+  position:relative;
+
+  float:right;
+top:-150px;
+
+}
+.enlaces{
+
+display: flex;
+justify-content: center;
+}
+.caja{
+background-color: #9F9797 ;
+  font-size:35px;
+text-align:center;
+
+  float:left;margin-left:20px;
+  position:relative;
+  left:10px;
+
+  display:flex;
+  justify-content: center;
+}
+
+
+a{
+text-decoration: none;
+color:white;
+}
+
+a:hover{
+
+color:#565552  ;
+
+}
+
+.pie{
+height:200px;
+width:100%;
+background-color: #807F7F ;
+position:relative;
+top:10px;
+}
+.pie{
+
+display: flex;
+justify-content: center;
+top:0;
+}
+#asd{
+
+color:white;
+font-size: 30px;
+position:relative;
+top:50px;
+}
+@media only screen and (max-width: 812px) {
+
+
+  .posision{
+
+    width:100%;
+    height:50px;
+  position:absolute;
+  top:-100px;
+    text-align:center;
+
+}
+
+.eltodo{
+width: 90%;
+height:1500px;
+background-color:#FCFCFC;
+padding:20px;
+
+
+}
+
+#trs{
+
+position:relative;
+width: 60%;
+}
+
+.enff{
+
+position:relative;
+top:200px;
+
+}
+
+#trs4{
+
+position:relative;
+top:20px;
+width: 30%;
+}
+
+.caja{
+
+position:relative;
+left:-10px;
+
+}
+}
+@media only screen and (max-width: 281px) {
+
+p{
+
+font-size: 16px;
+
+
+}
+
+
+}

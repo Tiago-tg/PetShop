@@ -1,0 +1,235 @@
+
+
+body{
+
+background-color: #C0C0C0;
+
+}
+
+h1{
+
+font-size:60px;
+
+}
+
+
+.ban{
+background-color: white;
+display: flex;
+justify-content: center;
+padding:0px;
+margin:0px;
+
+}
+
+._barra_{
+width: 100%;
+height:50px;
+margin-top:10px;
+background-color: #5C5C5C ;
+
+}
+
+
+.caja{
+background-color: #9F9797 ;
+  font-size:35px;
+text-align:center;
+
+
+
+}
+
+
+
+a{
+text-decoration: none;
+color:white;
+}
+
+a:hover{
+
+color:#565552  ;
+
+}
+
+._fondo_{
+
+width: 100%;
+height:900px;
+background-color: #383535 ;
+position:relative;
+top:20px;
+
+
+}
+h2{
+
+color:white;
+font-size:40px;
+
+}
+
+._img_{
+
+margin:50px;
+
+}
+
+.cpp{
+
+position:relative;
+top:20px;
+font-size: 30px;
+left:10px;
+}
+
+#derecho{
+
+float:right;
+margin:10px;
+position:relative;
+bottom:315px;
+
+}
+.ppp{
+width: 250px;
+
+font-size: 30px;
+float:right;
+position:relative;
+left:325px;
+bottom:50px;
+
+}
+
+.largo{
+;
+font-size: 30px;
+
+margin:50px;
+}
+.pppp{
+width: 250px;
+
+font-size: 30px;
+float:right;
+position:relative;
+left:260px;
+bottom:50px;
+
+}
+
+.preguntas{
+
+width: 100%;
+height:200px;
+background-color: #4A4A4A ;
+
+
+}
+
+.Nosotros{
+  width: 100%;
+  height:100px;
+  background-color: #4A4A4A ;
+
+
+}
+
+
+.final{
+
+background-color:#2C2B2B ;
+width:100%;
+height:250px;
+position: relative;
+top:80px;
+}
+.derechos{
+width: 100%;
+height: 10px;
+
+position:relative;
+bottom:10px;
+
+}
+
+#crea{
+text-align: center;
+color:white;
+font-size: 20px;
+
+}
+.fac{
+margin: 0 auto;
+width:25px;
+text-align: center;
+justify-content: center;
+position: relative;
+
+
+}
+
+.logo{
+
+margin: 0 auto;
+width:25px;
+text-align: center;
+justify-content: center;
+position: relative;
+
+
+}
+
+
+.subfinal{
+
+text-align: center;
+}
+
+a{
+
+text-decoration: none;
+color:white;
+
+}
+
+
+@media only screen and (max-width: 812px) {
+
+  #derecho{
+
+  float:right;
+  margin:10px;
+  position:relative;
+  bottom:180px;
+
+  }
+
+a{
+
+font-size:15px;
+
+}
+
+._tex_1{
+
+position:relative;
+top:100px;
+
+}
+@media only screen and (max-width:280px ) {
+
+.caja{
+background-color: #9F9797 ;
+  font-size:35px;
+text-align:center;
+
+  float:left;margin-left:10px;
+  position:relative;
+  top:110px;
+  left:55px;
+}
+
+}
